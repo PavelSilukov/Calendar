@@ -54,13 +54,14 @@ namespace ListCollectionMonth
                             {
                                 Console.WriteLine("You entered an invalid character");
                                 Console.WriteLine("Press any key to repeat...");
+                                Console.WriteLine("Goodbuy!");
                                 Console.ReadKey();
                                 Console.Clear();
                             }
                         }
                         break;
 
-                        
+                        Console.WriteLine("Set the number of months\n");
 
                     case "1":
                         Console.WriteLine("Set the number of month from 1 to 12");
