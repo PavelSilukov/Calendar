@@ -10,8 +10,9 @@ namespace ListCollectionMonth
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello frend!");
+            Console.WriteLine("Hello World!");
             Month[] months = { new Month("January", 31, 1),
+            
                                 new Month("Febrary", 29, 2),
                                 new Month("March", 31, 3),
                                 new Month("April", 30, 4),
